@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="Movie Browser Preferences">
+
+        <ListPreference
+            android:key="movieBrowserSortingOrder"
+            android:title="Sorting Order"
+            android:summary="In what order the movies should be sorted."
+            android:defaultValue="@string/pref_browser_sort_order_popularity_value"
+            android:entries="@array/pref_browser_sorting_order_array_entires"
+            android:entryValues="@array/pref_browser_sorting_order_array_values"
+            />
+
+        <CheckBoxPreference
+            android:key="movieBrowserIncludeAdultMovies"
+            android:title="Include Adult Movies"
+            android:summary="Whether to include adult movies in the browser grid or not."
+            android:defaultValue="false"
+            />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

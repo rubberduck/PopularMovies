@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_browser_sorting_order_array_entires">
+        <item>@string/pref_browser_sort_order_popularity_entry</item>
+        <item>@string/pref_browser_sort_order_title_entry</item>
+        <item>@string/pref_browser_sort_order_avgvote_entry</item>
+        <item>@string/pref_browser_sort_order_releasedate_entry</item>
+        <item>@string/pref_browser_sort_order_revenue_entry</item>
+    </string-array>
+    <string-array name="pref_browser_sorting_order_array_values">
+        <item>@string/pref_browser_sort_order_popularity_value</item>
+        <item>@string/pref_browser_sort_order_title_value</item>
+        <item>@string/pref_browser_sort_order_avgvote_value</item>
+        <item>@string/pref_browser_sort_order_releasedate_value</item>
+        <item>@string/pref_browser_sort_order_revenue_value</item>
+    </string-array>
+
+</resources>
